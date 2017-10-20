@@ -2,6 +2,10 @@
 
 Based on [**retrofit2** *2.3.0*](http://square.github.io/retrofit/) and [**okhttp3:logging-interceptor** *3.9.0*](https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor)
 
+### version 1.0.1
+* Add GZIP Interceptor.
+
+
 ## Download:
 ```
 allprojects {
@@ -13,6 +17,6 @@ allprojects {
 ```
 ```
 	dependencies {
-	        compile 'com.github.chrisfang6:lib-network-retrofit:1.0.0'
+	        compile 'com.github.chrisfang6:lib-network-retrofit:1.0.1'
 	}
 ```
